@@ -34,14 +34,14 @@ gemBox.splice(6,4);
 
 upToTen.splice(2,0,3,4,5,6,7,8);
 
-brownOnly.splice(1,5,"brown","brown","brown");
+brownOnly.splice(1,5,'brown','brown','brown');
 
 var orderedValuesNewLength = orderedValues.unshift(1, 2, 3);
 
 var randomThingsArray = genericNumberArray.concat(colors);
 
-var order1 = [{takeOut: "Pizza"}];
-var order2 = [{takeOut: "Pansita"}];
+var order1 = [{takeOut: 'Pizza'}];
+var order2 = [{takeOut: 'Pansita'}];
 var updatedOrders = orderQueue.concat(order1, order2);
 
 var sentence = scrambledWords.join(" ");
@@ -53,7 +53,7 @@ var owesMoney = friends.slice(3, 6);
 
 var monthNameString = monthNames.toString();
 
-var favoriteColor = colors.indexOf("Red");
+var favoriteColor = colors.indexOf('Red');
 var favoriteEvenNumber = mixedNums.indexOf(76);
 
 var lastNine = bulkNumbers.lastIndexOf(9);

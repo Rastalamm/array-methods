@@ -44,8 +44,8 @@ var order1 = [{takeOut: 'Pizza'}];
 var order2 = [{takeOut: 'Pansita'}];
 var updatedOrders = orderQueue.concat(order1, order2);
 
-var sentence = scrambledWords.join(" ");
-var myFruits = fruitCollection.join(" + ");
+var sentence = scrambledWords.join(' ');
+var myFruits = fruitCollection.join(' + ');
 
 var favoriteFriends = friends.slice(1, 3);
 
